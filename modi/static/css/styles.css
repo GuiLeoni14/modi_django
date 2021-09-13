@@ -1,0 +1,21 @@
+/* INDEX */
+
+#btn-experimente{
+    color: #12c402;
+    padding: auto;
+    background: transparent;
+    border: 2px solid #12c402;
+    border-radius: 40px;
+    font-size: 13px;
+    transition: 0.5s;  
+}
+#btn-experimente:hover{
+    transition: 0.5s;
+    background: black;
+    color: #f2f2f2;
+    border: 2px solid #000000;
+}
+#user-logo{
+    width: 32px;
+    height: 32px;
+}
