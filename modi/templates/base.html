@@ -22,18 +22,23 @@
 
 <body>
     <nav>
-    <p>Grupo Modi</p>
-    <ul>
-        <li><a href="">Página inicial</a></li>
-        <li><a href="">Serviços</a></li>
-        <li><a href="">Quem somos</a></li>
-        <li><a href="">Blog</a></li>
-    </ul>
+        <div id="info-nav">
+            <div id="div-titulo">
+                <p>Grupo Modi</p>
+            </div>
+            
+            <ul>
+                <li><a href="">Página inicial</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
 
-    <div id="div-botoes">
-        <button type="submit"><img id="img-botao" src="{% static  '/img/user_logo.png'%}"> <p>Cadastre-se</p></button>
-        <button type="submit">Experimente</button>
-    </div>
+            <div id="div-botoes">
+                <button id="bt-cadastro"type="submit"><img id="img-botao" src="{% static  '/img/user_logo.png'%}"> <p>Cadastre-se</p></button>
+                <button id="bt-exp"type="submit">Experimente</button>
+            </div>
+        </div>
     </nav>
     {% block content%}
     {% endblock %}
