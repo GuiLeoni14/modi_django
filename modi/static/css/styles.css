@@ -1,21 +1,166 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 /* INDEX */
 
-#btn-experimente{
+#btn-experimente {
     color: #12c402;
     padding: auto;
     background: transparent;
     border: 2px solid #12c402;
     border-radius: 40px;
     font-size: 13px;
-    transition: 0.5s;  
+    transition: 0.5s;
 }
-#btn-experimente:hover{
+
+#btn-experimente:hover {
     transition: 0.5s;
     background: black;
     color: #f2f2f2;
     border: 2px solid #000000;
 }
-#user-logo{
+
+#user-logo {
     width: 32px;
     height: 32px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+
+
+footer .main {
+    margin-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background: #6b6b6b;
+    padding: 20px 10px;
+}
+
+.footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social h6{
+    font-size: 18px;;
+}
+
+.footer-social h4{
+    font-size: 22px;
+}
+
+.footer-social input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.footer-social button{
+    margin-top: 20px;
+    width: 110px;
+    height: 50px;
+}
+
+.footer-social button:hover{
+    transition: 0.5s;
+    color: #000000;
+    background-color: #7894f1;
+    border-color: #53a1eb;
+}
+.social-icons h6{
+    margin-top: 30%;
+}
+
+.footer-rental{
+    margin-left: 50px;
+}
+
+.footer-rental button{
+    background: #12c402;
+    border-color: #12c402;
+    margin-top: 50px;
+    height: 50px;
+}
+.footer-rental button:hover{
+    background: #000000;
+    color: #f2f2f2;
+    border-color: ;
+}
+.footer-rental h4{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #000000;
+}
+#h4-inicio{
+    margin-top: 0px;
+}
+
+.footer-company,
+.footer-rental,
+.footer-contact,
+.footer-social {
+    height: 100%;
+    min-height: 100px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links h6 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 8px;
+}
+
+.footer-company h6{
+    color: #000000;
+}
+
+.main .footer-social img {
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+footer .last {
+    width: 100%;
+    height: 50px;
+    background: #f2f2f2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #0D0D0D;
+}
+
+footer .last h6 {
+    color: #0D0D0D;
+}
+
+#whatsapp-img {
+    color: #fff;
 }
