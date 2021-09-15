@@ -46,7 +46,7 @@ footer .main {
     margin-bottom: 100px;
     width: 100%;
     height: auto;
-    background: #6b6b6b;
+    background: #ffffff;
     padding: 20px 10px;
 }
 
@@ -103,9 +103,10 @@ footer .main {
     height: 50px;
 }
 .footer-rental button:hover{
+    transition: 0.5s;
     background: #000000;
     color: #f2f2f2;
-    border-color: ;
+    border-color: #000000;
 }
 .footer-rental h4{
     font-size: 20px;
@@ -136,8 +137,24 @@ footer .main {
     margin-bottom: 8px;
 }
 
+.footer-company h4{
+
+}
+
 .footer-company h6{
     color: #000000;
+}
+
+.company{
+    margin-top: 40px;
+}
+.company h6{
+    font-size: 20px;
+}
+
+.privacidade{
+    font-size: 15px;
+    margin-top: 60px;
 }
 
 .main .footer-social img {
