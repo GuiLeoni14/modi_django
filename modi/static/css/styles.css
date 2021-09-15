@@ -111,7 +111,6 @@ ul li a{
 }
 
 /* Footer */
-
 footer {
     width: 100%;
     height: auto;
@@ -120,30 +119,32 @@ footer {
 
 
 footer .main {
-    margin-bottom: 100px;
     width: 100%;
     height: auto;
     background: #ffffff;
     padding: 20px 10px;
+    margin-bottom: 50px;
 }
 
 .footer-links {
-    max-width: 1000px;
-    min-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px;
+
 }
 
 .footer-social h6{
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 .footer-social h4{
     font-size: 22px;
+}
+
+.footer-social h6{
+    margin-top: 20px;
 }
 
 .footer-social input{
@@ -151,6 +152,12 @@ footer .main {
     height: 50px;
     border: 1px solid;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.footer-social input:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .footer-social button{
@@ -165,8 +172,18 @@ footer .main {
     background-color: #7894f1;
     border-color: #53a1eb;
 }
+
+.social-icons{
+    align-items: flex-end;
+}
+
+.social-icons a{
+    margin: 3px;
+}
+
 .social-icons h6{
-    margin-top: 30%;
+    margin-top: 90%;
+    font-size: 14px;
 }
 
 .footer-rental{
@@ -213,9 +230,12 @@ footer .main {
 .footer-links {
     margin-bottom: 8px;
 }
-
 .footer-company h4{
+    font-weight: lighter;
+}
 
+.footer-company strong{
+    font-weight: bold;
 }
 
 .footer-company h6{
