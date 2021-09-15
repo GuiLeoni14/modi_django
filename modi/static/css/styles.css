@@ -9,6 +9,10 @@ body {
     min-height: 100%;
 }
 
+#img-botao{
+    width: 20px;
+}
+
 /* INDEX */
 
 #btn-experimente {
