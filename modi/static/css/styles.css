@@ -9,6 +9,8 @@ body {
     min-height: 100%;
 }
 
+/* Header */
+
 #img-botao{
     width: 20px;
 }
@@ -157,8 +159,11 @@ footer .main {
 }
 
 .privacidade{
-    font-size: 15px;
     margin-top: 60px;
+}
+.privacidade h5{
+    font-size: 15px;
+    color: #3f4349;
 }
 
 .main .footer-social img {
