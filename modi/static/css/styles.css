@@ -159,6 +159,9 @@ footer .main {
 .footer-links {
     margin-bottom: 8px;
 }
+.footer-company h4{
+    font-weight: lighter;
+}
 
 .footer-company h6{
     color: #000000;
