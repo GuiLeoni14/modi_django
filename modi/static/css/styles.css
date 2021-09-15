@@ -163,6 +163,10 @@ footer .main {
     font-weight: lighter;
 }
 
+.footer-company strong{
+    font-weight: bold;
+}
+
 .footer-company h6{
     color: #000000;
 }
