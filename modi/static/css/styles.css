@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 html {
     height: 100%;
     min-height: 100%;
@@ -124,6 +126,7 @@ footer .main {
     background: #ffffff;
     padding: 20px 10px;
     margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-links {
@@ -135,16 +138,14 @@ footer .main {
 
 }
 
-.footer-social h6{
+
+.footer-social h4{
     font-size: 18px;
 }
 
-.footer-social h4{
-    font-size: 22px;
-}
-
 .footer-social h6{
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 .footer-social input{
@@ -193,8 +194,9 @@ footer .main {
 .footer-rental button{
     background: #12c402;
     border-color: #12c402;
-    margin-top: 50px;
-    height: 50px;
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 55px;
 }
 .footer-rental button:hover{
     transition: 0.5s;
@@ -203,8 +205,9 @@ footer .main {
     border-color: #000000;
 }
 .footer-rental h4{
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
     color: #000000;
 }
 #h4-inicio{
@@ -231,7 +234,7 @@ footer .main {
     margin-bottom: 8px;
 }
 .footer-company h4{
-    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
 }
 
 .footer-company strong{
@@ -246,14 +249,15 @@ footer .main {
     margin-top: 40px;
 }
 .company h6{
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .privacidade{
     margin-top: 60px;
 }
 .privacidade h5{
-    font-size: 15px;
+    font-size: 14px;
     color: #3f4349;
 }
 
