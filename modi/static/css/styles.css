@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    
 }
 
 /* Header */
@@ -18,6 +19,7 @@ nav{
     background-size: cover;
     width: 100%;
     height: 62.7vh;
+    
 }
 
 #info-nav{
@@ -27,10 +29,9 @@ nav{
     height: 50px;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-#info-nav p{
+#div-titulo p{
     color: white;
     font-size: 25px;
     
@@ -38,11 +39,13 @@ nav{
 
 ul{
     width: 400px;
-    height: 50px;
+    height: 10px;
+    margin: 10px;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul li a{
@@ -51,13 +54,21 @@ ul li a{
     font-size: 15px;
 }
 
+ul li a:hover{
+    color: #12c402;
+}
+
+ul li a:hover:visited{
+    color: #12c402;
+}
+
 #div-botoes{
     margin: 0% 0% 0% 10%;
     display: flex;
     width: 300px;
     justify-content: space-between;
-    align-items: center;
     height: 50px;
+    align-items: center;
 }
 
 #bt-cadastro{
@@ -66,26 +77,32 @@ ul li a{
     height: 30px;
     border: none;
     background: none;
-    
     justify-content: space-between;
-}
-
-#bt-cadastro p{
     font-size: 18px;
+    color: white;
 }
 
 #bt-exp{
-    width: 100px;
-    color: #006400;
+    width: 105px;
+    color: #12c402;
     height: 45px;
     background: none;
-    border: 2px solid #00FF00;
+    border: 2px solid #12c402;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 13px;
+}
+
+#bt-exp:hover{
+     background-color: black;
+     color: white;
+     border: black;
+}
+#bt-cadastro:hover p{
+    color:grey;
 }
 
 #img-botao{
-    width: 25px;
+    width: 27px;
 }
 
 /* INDEX */
