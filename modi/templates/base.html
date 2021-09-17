@@ -29,14 +29,19 @@
             
             <ul>
                 <li><a href="">Página inicial</a></li>
-                <li><a href="">Serviços</a></li>
+                <li class="border" id="ver" ><a href="#">Serviços</a>
+                    <ul  class="border" id="ap" style="display: none">
+                        <li>nossos serviços</li>
+                        <li>Portifólio</li>
+                    </ul>
+                </li>
                 <li><a href="">Quem somos</a></li>
                 <li><a href="">Blog</a></li>
             </ul>
 
             <div id="div-botoes">
                 <button id="bt-cadastro"type="button"><img id="img-botao" src="{% static  '/img/user.png'%}"> <p>Cadastre-se</p>
-                <button id="bt-exp"type="button">Experimente</button>
+                <a href="{% url 'registro' %}"><button id="bt-exp"type="button">Experimente</button></a>
             </div>
         </div>
     
@@ -101,6 +106,17 @@
             </div>
         </div>
     </footer>
+    <script>
+        var a=document.getElementById('ver')
+        var b=document.getElementById('ap')
+            a.onclick= function ver(){
+                b.style.display = 'block';
+                setTimeout(() => {
+                    b.style.display = 'none';
+                }, 3000);
+                
+            }
+    </script>
 </body>
 
 </html>

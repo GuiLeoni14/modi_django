@@ -1,31 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 html {
-    height: 100%;
-    min-height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    
+    margin: 0%;
+    padding: 0%;
 }
 
 /* Header */
 nav{
-    background-image: url("../img/fundo-nav.webp");
+    background-image: url("../img/fundo-nav2.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 62.7vh;
-    
+    height: auto;   
 }
 
 #info-nav{
+    padding-top: 50px;
     display: flex;
     width: 90%;
-    margin: 2% 5% 0% 5%;
+    margin: 0% 5% 0% 5%;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -60,6 +53,16 @@ ul li a:hover{
 
 ul li a:hover:visited{
     color: #12c402;
+}
+#ap{
+    padding: 20px;
+    position: absolute;
+    width: 200px;
+}
+#ap li{
+    cursor: pointer;
+    display: block;
+    color: red;
 }
 
 #div-botoes{
@@ -107,6 +110,10 @@ ul li a:hover:visited{
 
 /* INDEX */
 
+.row{
+    width: 100%;
+    height: auto;
+}
 #btn-experimente {
     color: #12c402;
     padding: auto;
@@ -129,6 +136,72 @@ ul li a:hover:visited{
     height: 32px;
 }
 
+.container-nav{
+    margin: 50px 0px 0px 50px;
+}
+.index-title h1{
+    margin-top: 20px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+}
+.index-title h6{
+    font-weight: 900;
+    font-size: 18px;
+    color: #f2f2f2;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.index-botoes{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.index-botoes .btn{
+    margin-right: 20px;
+    width: 190px;
+    height: 55px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+#btn-comecar{
+    background: #12c402;
+    border-color: #12c402;
+    width: 170px;
+    transition: 0.4s;
+}
+
+#btn-comecar:hover{
+    transition: 0.4s;
+    border-color: #0D0D0D;
+    background: #0D0D0D;
+    color: #f2f2f2;
+}
+
+#btn-ver-servicos{
+    border: 2px solid #f2f2f2;
+    background: transparent;
+    transition: 0.4s;
+}
+
+#btn-ver-servicos:hover{
+    transition: 0.4s;
+    border-color: #0D0D0D;
+    background: #0D0D0D;
+}
+
+.img-index{
+    padding: 0%;
+}
+.img-index img{
+    height: 500px;
+    width: auto;
+    margin-bottom: 20px;
+
+}
 /* Footer */
 footer {
     width: 100%;
